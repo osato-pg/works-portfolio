@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Osato's</title>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+  </head>
+  <body>
+    <header>
+      <div class="header-menu" id="h_color">
+        <h1 class="header-menu__title">Osato's</h1>
+        <nav>
+          <ul class="header-menu__list">
+            <li class="h-about">
+              <a href="#about" class="header-menu_item">About</a>
+            </li>
+            <li class="h-works">
+              <a href="#works" class="header-menu_item">Works</a>
+            </li>
+            <li class="h-services">
+              <a href="#services" class="header-menu_item">Services</a>
+            </li>
+            <li class="h-contact">
+              <a href="#contact" class="header-menu_item">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sp-nav" id="sp">
+          <div class="menu-btn" id="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="sp-content" >
+            <ul class="sp-list" id="sp-content">
+              <li class="h-about"><a href="#about">About</a></li>
+              <li class="h-works"><a href="#works">Works</a></li>
+              <li class="h-services">
+                <a href="#services">Services</a>
+              </li>
+              <li class="h-contact">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header-pic" id="headerPic">
+        <h1 class="effect-fade">WEB DEPLOPMENT</h1>
+        <p class="effect-fade">Web制作承ります</p>
+      </div>
+    </header>
+    <main>
+      <!-- about me -->
+      <section class="main-content effect-fade">
+        <h1 class="content-title" id="about">About.</h1>
+        <p class="content-title_comment">自己紹介</p>
+        <div class="about-flex">
+          <p class="about-text effect-fade">
+            デザイナー・コーダーとして活動しておりますおさとと申します。<br />
+            デザインを忠実に再現し、SEOを踏まえた正しい文法でコーディングすることが得意です。<br />
+            レスポンシブデザインにおいても、お客様の意図を阻害しないように実装致します。<br />
+            当サイトのようなオリジナルデザインの作成も可能です。<br />
+            お仕事をする上で、以下３点を重視しております。<br />
+            ・お仕事のゴールを共有すること<br />
+            ・認識齟齬がないよう都度コミュニケーションを欠かさないこと
+            <br />・納期を守ること
+            お互いに気持ちよくお仕事ができること<br>心がけてまいります。<br />
+            よろしくお願い致します。
+          </p>
+          <img src="img/my-picture.png" alt="mypic" class="about-pic effect-fade">
+        </div>
+      </section>
+
+      <!-- works -->
+      <section class="main-content effect-fade">
+        <h1 class="content-title" id="works">Works.</h1>
+        <p class="content-title_comment">
+          これまでのWEB制作(デザイン・コーディング）実績です。<br />
+          実サイトの模写コーディングも含みます。
+        </p>
+        <div class="works-list">
+          <div class="work-item effect-fade">
+            <a
+              href="https://osato-pg.github.io/works-portfolio-iroha/"
+              target="_brank"
+              class="work-link"
+            >
+              <img src="img/iroha-img.png" alt="iroha" class="work-img" />
+              <p class="work-text">
+                Link
+                <i class="fas fa-external-link-alt"></i>
+              </p>
+            </a>
+            <h2 class="work-title">暮らしの体験宿　いろは様</h2>
+            <p class="work-category">模写コーディング</p>
+            <p class="work-role">Coding(Responsive)</p>
+          </div>
+          <div class="work-item effect-fade">
+            <a
+              href="https://osato-pg.github.io/works-portfolio-144lab/"
+              target="_brank"
+              class="work-link"
+            >
+              <img src="img/144lab-img.png" alt="iroha" class="work-img" />
+              <p class="work-text">
+                Link
+                <i class="fas fa-external-link-alt"></i>
+              </p>
+            </a>
+            <h2 class="work-title">株式会社144Lab様</h2>
+            <p class="work-category">模写コーディング</p>
+            <p class="work-role">Coding</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- services -->
+      <section class="main-content effect-fade">
+        <h1 class="content-title" id="services">Services.</h1>
+        <p class="content-title_comment">ご提供できるサービス内容です。</p>
+        <div class="service-list">
+          <div class="service-item effect-fade">
+            <i class="fas fa-pen-nib"></i>
+            <h2 class="service-title">WEB　DESIGN</h2>
+            <p class="service-content">
+              お客様のご要望を元にデザインを作成します。
+              当サイトのようなオリジナルデザインの作成から、テンプレートをベースとしたサイト作成まで、イメージに合ったデザインをご提供することが可能です。
+            </p>
+          </div>
+          <div class="service-item effect-fade">
+            <i class="fas fa-code"></i>
+            <h2 class="service-title ">WEB DEVELOPMENT</h2>
+            <p class="service-content">
+              お客様がお持ちのxdファイルやpdファイルから、忠実にデザインを再現します。
+              SEOを加味した実装も対応可能です。HTML/CSS/Javascript/SEO
+            </p>
+          </div>
+          <div class="service-item effect-fade">
+            <i class="fas fa-desktop"></i>
+            <h2 class="service-title">MAINTENANCE</h2>
+            <p class="service-content">
+              既存WEBサイトの修正やリニューアルもお受けします。
+              小規模な変更やページの追加など、ご希望に応じて対応いたします。
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="contact-form">
+        <h1 class="content-title" id="contact">Contact.</h1>
+        <p class="content-title_comment">お問い合わせ</p>
+        <div class="contact-link">
+          <a href="mailto:14bm154l@al.rikkyo.ac.jp?subject=仕事の依頼・問合せ">
+            <i class="far fa-envelope"></i>
+          </a>
+          <a href="https://twitter.com/PgmSato" target="_brank">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+        </div>
+      </div>
+      <p class="copy-container">© Copyright Osato’s All Rights Reserved.</p>
+    </footer>
+  </body>
+  <script src="js/main.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</html>
