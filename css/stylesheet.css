@@ -38,6 +38,8 @@ html {
 .header-menu__title {
   font-weight: normal;
   font-family: Apple Chancery;
+  text-decoration: none;
+  color: #000;
 }
 
 .header-menu__title:after {

@@ -32,6 +32,8 @@ html {
   &__title {
     font-weight: normal;
     font-family: Apple Chancery;
+    text-decoration: none;
+    color: #000;
 
     &:after {
       content: "-web codeing & design-";
